@@ -17,4 +17,9 @@ SportsCar.prototype = Object.create(Car.prototype);
 SportsCar.prototype.constructor = SportsCar; // Fix the constructor reference
 
 SportsCar.prototype.getTopSpeed = function() {
-  
+    return this.topSpeed;
+};
+
+// Do not change the code below
+window.Car = Car;
+window.SportsCar = SportsCar;
